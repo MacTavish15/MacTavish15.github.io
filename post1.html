@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--
+    - primary meta tags
+  -->
+  <title>Walid Analytics - Perosonal Blog Website</title>
+  <meta name="title" content="Walid Analytics - Perosonal Blog Website">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/myphoto.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="119" height="37" alt="Wren logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="119" height="37" alt="Wren logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="./assets/images/author-1.jpg" width="48" height="48" alt="Steven" class="profile-banner">
+
+
+          </div>
+
+          <ul class="link-list">
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <p class="copyright-text">
+          Copyright 2022 © Walid Analytics - Personal Blog Template.
+          Developed by Walid BOUMAHDI
+        </p>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Subscribe</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m Walid<span class="span"> BOUMAHDI</span>
+            </h1>
+
+            <p class="hero-text">
+              Football Data Scientist and Analyst.
+            </p>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email_address" placeholder="Type your email address" required
+                class="input-field" autocomplete="off">
+
+              <button class="btn btn-primary">
+                <span class="span">Subscribe</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/myphoto.png" width="327" height="490" alt="Wren Clark" class="w-100">
+
+            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Hot topics
+              </h2>
+
+              <p class="card-text">
+                Don't miss out on the latest news about Football analytics, player analysis, team analysis, performance analysis and video analysis...
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.png" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Video Analysis</span>
+
+                      <p class="slider-subtitle">0 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-2.png" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Performance Analysis</span>
+
+                      <p class="slider-subtitle">0 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-3.png" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Team Analysis</span>
+
+                      <p class="slider-subtitle">0 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-4.png" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Player Analysis</span>
+
+                      <p class="slider-subtitle">2 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="featured">
+
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+
+
+
+
+      <!--
+        - #POPULAR TAGS
+      -->
+
+
+
+
+
+
+
+      <!--
+        - #RECENT POST
+      -->
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">Toni Kroos, the brain and dynamo of Real Madrid.</span>
+            </h2>
+
+            <p class="section-text" align="justify">
+              Víctor Orta, the director of Football Sevilla FC said that I do not sign a player just because of the data, but I do not sign a player anymore without checking his data. Video analysis and data analysis are complementary in terms of recruiting and evaluating players and teams. Instead of watching all videos of players or matches, we can filter this process by using data, which saves time. In this article, we will evaluate a great player – Toni Kroos.
+
+              Toni Kroos is a midfielder who has been playing in the royal team since 2014. He has 23 trophies as a Real Madrid player: five Champions Leagues, five Club World Cups, four Uefa Super Cups, and four La Liga titles, one Copa Del Rey and four Uefa Super Cups and four Spanish Super Cups. Toni Kroos is the German player who has made the most appearances in Real Madrid's history with more than 450 matches.
+            </p>
+            <img  src="assets/images/Kroos/kroos.jpg"  />
+            <h3 class="headline headline-2 section-title">
+              Toni Kroos role
+            </h3>
+            <p class="section-text" align="justify">
+
+            Toni Kroos is very important player in Real Madrid; the latter depends of him in offensively and defensively. He is a multiple-role player. He could play as a sentinel player, central midfielder and deep-lying playmaker "The regista". In the build-up phase, he is lying near the defenders to start the attack using the "la Salida Lavolpiana" technique. In addition, he could positioning as third defender in order to begin the attack.
+
+          </p>
+          <img  src="assets/images/Kroos/recreate-toni-kroos-role-v0-u0geepkng0ad1.webp"  />
+          <p class="section-text" align="justify">
+
+Furthermore, He takes cover for the defenders Eder Militao and Antonio Rudiger in defensing phase. In addition, he is a creative player who operates in front of the defense, usually in a central position, and looks to get on the ball as often as possible to the attackers. He is responsible for providing the link between defense and attack and controlling the tempo of the game through his passing. The following picture shows the position of ball receiving from Toni Kroos. The latter operates in the first and the second part of the pitch, what does it means, he is the responsible of buildup and progression the ball phase.
+          </p>
+          <img  src="assets/images/Kroos/pass receiving.png"  width="500" height="600" />
+          <h3 class="headline headline-2 section-title">
+Progressive passes clusters
+</h3>
+          <p class="section-text" align="justify">
+            As well, Toni Kroos is not only a defensive midfielder, he is also an offensive player who made progressive passes to the final third (the most player in La Liga 2023/2024) as shown in the picture by yellow and blue arrows.
+
+
+          </p>
+
+          <img  src="assets/images/Kroos/prog passes.png" width="500" height="600" />
+
+          <h3 class="headline headline-2 section-title">
+
+Toni kroos versus LaLiga players
+</h3>
+<p class="section-text" align="justify">
+  Toni Kroos made 18 tackles in the midfield and attacked third with 47.5 % of successful tackles. He blocks 12 passes and 72.3 % of completed long passes. He carried the ball 12 times this season and offered 131 progressive passes.
+His pressure is 1.96 to the average of Laliga players, 0.88 to the average of La Liga players in defense actions and 1.06 to the average in progression. However, his attack intelligence is near to the average with a standard deviation equal to 0.14.
+
+</p>
+
+<img  src="assets/images/Kroos/plot std deviation.png"  width="500" height="600" />
+
+<p class="section-text" align="justify">
+  The next table shows that Toni Kroos is so far from his teammates in expected threat value, which means that he is the most dangerous in terms of the quality of passes offered to allies (xT equal to 2.30).
+</p>
+
+<img  src="assets/images/Kroos/xT.jpg"  />
+
+<p class="section-text" align="justify">
+ The most players who receive progressive passes are as follows:
+</p>
+
+<img  src="assets/images/Kroos/receiver prog passes.png"  width="500" height="600" />
+
+<p class="section-text" align="justify">
+  	Toni Kroos completes passes better than 95% players of LaLiga, with shorts passes more than 94% players and more than 80% of players in long passes. He made tackles won better than 89% of players and more than 85% of players in interceptions. The following picture illustrates percentile rank of Toni Kroos in season 2023/2024.
+</p>
+<img  src="assets/images/Kroos/Sans titre.jpg" />
+
+
+<h3 class="headline headline-2 section-title">
+
+Toni Kroos the king of long passes
+</h3>
+<p class="section-text" align="justify">
+We notice that the midfielder player Kroos, does not receive a lot passes in the attack third, the most receptions is done in the first and second mid, however, he offers a long passes from the buildup and progression phases to the final attack. In short, he has nothing to do in the final part of the pitch. Nevertheless, he stills the best player in Laliga who made passes to the final third and creating chances thanks to long passes and progressive passes.We notice that the midfielder player Kroos, does not receive a lot passes in the attack third, the most receptions is done in the first and second mid, however, he offers a long passes from the buildup and progression phases to the final attack. In short, he has nothing to do in the final part of the pitch. Nevertheless, he stills the best player in Laliga who made passes to the final third and creating chances thanks to long passes and progressive passes.
+</p>
+
+
+
+
+
+
+          </div>
+
+          <div class="post-aside grid-list">
+
+
+
+
+
+            <div class="card aside-card insta-card">
+
+              <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="119" height="37" loading="lazy" alt="Wren logo">
+              </a>
+
+              <p class="card-text">
+                Follow us on instagram
+              </p>
+
+              <ul class="insta-list">
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-1.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-2.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-3.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-4.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-5.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-6.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-7.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-8.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-9.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" width="119" height="37" loading="lazy" alt="Wren logo">
+            </a>
+
+            <p class="footer-text">
+              This Blog is made for football analytics writing. Here, we analyse players, teams using data and video. In addition,
+              we explain some football tips.
+            </p>
+
+            <p class="footer-list-title">Address</p>
+
+            <address class="footer-text address">
+              16024 Algiers <br>
+              , Algeria.
+            </address>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categories</p>
+
+            <ul>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Player Analysis</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Team Analysis</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Data Analysis</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Data Science</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Video analysis</a>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="footer-text">
+              Sign up to be first to receive the latest stories inspiring us, case studies, and industry news.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">Walid BOUMAHDI.</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!--
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
