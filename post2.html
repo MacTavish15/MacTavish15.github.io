@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--
+    - primary meta tags
+  -->
+  <title>Walid Analytics - Perosonal Blog Website</title>
+  <meta name="title" content="Walid Analytics - Perosonal Blog Website">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/myphoto.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="119" height="37" alt="Wren logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="119" height="37" alt="Wren logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="./assets/images/author-1.jpg" width="48" height="48" alt="Steven" class="profile-banner">
+
+
+          </div>
+
+          <ul class="link-list">
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <p class="copyright-text">
+          Copyright 2022 © Walid Analytics - Personal Blog Template.
+          Developed by Walid BOUMAHDI
+        </p>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Subscribe</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m Walid<span class="span"> BOUMAHDI</span>
+            </h1>
+
+            <p class="hero-text">
+              Football Data Scientist and Analyst.
+            </p>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email_address" placeholder="Type your email address" required
+                class="input-field" autocomplete="off">
+
+              <button class="btn btn-primary">
+                <span class="span">Subscribe</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/myphoto.png" width="327" height="490" alt="Wren Clark" class="w-100">
+
+            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Hot topics
+              </h2>
+
+              <p class="card-text">
+                Don't miss out on the latest news about Football analytics, player analysis, team analysis, performance analysis and video analysis...
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.png" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Video Analysis</span>
+
+                      <p class="slider-subtitle">0 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-2.png" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Performance Analysis</span>
+
+                      <p class="slider-subtitle">0 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-3.png" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Team Analysis</span>
+
+                      <p class="slider-subtitle">0 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-4.png" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Player Analysis</span>
+
+                      <p class="slider-subtitle">2 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="featured">
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+
+
+
+
+      <!--
+        - #POPULAR TAGS
+      -->
+
+
+
+
+
+
+
+      <!--
+        - #RECENT POST
+      -->
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">Vinícius Júnior the complete left-winger.</span>
+            </h2>
+
+            <p class="section-text" align="justify">
+              In his first seasons with Real Madrid, Vini Jr was criticized for his decision-making and luck of ending-attack. However, from season 2021-2022 until now, a huge transformation in his performance was done. He became the complete left-winger and game changer by transforming with his decision-making from any easy action of team into dangerous attack. He was attacking the surfaces quickly, and wins the situation of one versus one. In addition, he can easily connect with attackers such as Karim Benzema and Jude Bellingham.  For season 2021/2022, to break forward with dynamism, with freedom, and to finish off a swift, decisive transition, he has bagged 22 goals and 20 assists (in all competitions) as a result. For season 2022/2023, he scored 23 goals and made 21 assists (in all competitions). For the last season, he has bagged 24 goals and made 11 assists (in all competitions).
+                        </p>
+            <h3 class="headline headline-2 section-title">
+                Vini Jr Role
+            </h3>
+            <p class="section-text" align="justify">
+
+              A right-footed forward playing exclusively on the left of a 4-3-3 in season 2021/2022, his task is to create chances and score goals. Positionally speaking, his role is clear-cut. Vinícius’ season heatmap alone gives a good indicator of the type of player we are talking about. One who starts high and wide, and whose influence grows the closer he gets to the penalty box.
+              In season 2022/2023, he positioned as attack player and when Jude Bellingham push forward to penalty box, Vini Jr try to lie in the left side of the pitch in order to offer crosses, and sometimes play as deep winger to make long shots.
+
+          </p>
+          <img  src="assets/images/Vini Jr/pass receptions.png"  />
+          <p class="section-text" align="justify">
+
+The previous heatmap represents where Vini Jr receives passes from his teammates (where starts actions) and the next picture represents where the left-winger Vini made his actions such as passes, recoveries, etc.          </p>
+          <img  src="assets/images/Vini Jr/6BD53AB.jpeg"  width="500" height="600" />
+          <p class="section-text" align="justify">
+
+
+However, with his limited defensive responsibility, in a team full of excellent playmakers, Vinícius has a clearly defined role as a decisive man of football matches.
+
+</p>
+          <h3 class="headline headline-2 section-title">
+Vini Jr and his data </h3>
+          <p class="section-text" align="justify">
+By looking below those surface numbers of season 2021/2022, we are clearly dealing with a winger with good quality.
+
+          </p>
+
+          <img  src="assets/images/Vini Jr/pypizza.png" width="500" height="600" />
+          <p class="section-text" align="justify">
+
+From last picture, we notice that Vini jr is outstanding in progression the ball by effecting progression carries, his presence of attacking intelligence is pretty good, the best of dribblers and in doing take ons. As a dribbler, he beats more players per 90 minutes (3.38) than Neymar (3.25), Luis Díaz (3.02), Leroy Sane (2.32) and Mohamed Salah (1.86). However, he did not press well in opponent half. In other words, Vinícius maximises his role as a purely offensive, match-winning forward.
+</p>
+          <h3 class="headline headline-2 section-title">
+
+ Relentless attacking movement
+</h3>
+<p class="section-text" align="justify">
+Vinícius’ movement can be described with a single word: direct. Against a high line, he is looking to run off the shoulder of his defender almost every time.Vinícius’ movement can be described with a single word: direct. Against a high line, he is looking to run off the shoulder of his defender almost every time.
+</p>
+
+<img  src="assets/images/Vini Jr/1.jpeg"  width="500" height="600" /></br>
+<img  src="assets/images/Vini Jr/2.jpeg"  width="500" height="600" />
+
+
+<h3 class="headline headline-2 section-title">
+
+Explosive dribbling
+</h3>
+<p class="section-text" align="justify">
+  Vini is one of very few players who can operate regularly at high speeds, without losing control of the ball or lowering the quality of his end-product.
+  In terms of dribbling, this makes him a devastating attacker into space. Capable of beating a defender with a couple of touches or less. In the same way that his movement is always off-the-shoulder, his dribbling is focused on pushing the ball behind the defender quickly. He’s always looking to trap the ball and accelerate towards the goal with as few touches as possible. In the example below he takes three touches: control, move, accelerate.
+</p>
+<img  src="assets/images/Vini Jr/3.jpeg"  width="500" height="600" />
+
+<h3 class="headline headline-2 section-title">
+
+Type of crosses offered
+</h3>
+
+<p class="section-text" align="justify">
+
+What is pull-back cross? It is a type of crosses when a wide player runs with a ball in parallel with the goal line and then passes back the ball to a player in deep position in order to make an opportunity to score a goal. Vini Junior is known with his pull-back crosses (the green arrows). HIGH-DRIVEN cross (the brown arrows) is another type of crosses which Vini Junior can offer to his teammates.
+</p>
+
+<img  src="assets/images/Vini Jr/vd.jpg"  width="500" height="600" />
+
+
+
+
+
+          </div>
+
+          <div class="post-aside grid-list">
+
+
+
+
+
+            <div class="card aside-card insta-card">
+
+              <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="119" height="37" loading="lazy" alt="Wren logo">
+              </a>
+
+              <p class="card-text">
+                Follow us on instagram
+              </p>
+
+              <ul class="insta-list">
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-1.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-2.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-3.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-4.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-5.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-6.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-7.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-8.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-9.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" width="119" height="37" loading="lazy" alt="Wren logo">
+            </a>
+
+            <p class="footer-text">
+              This Blog is made for football analytics writing. Here, we analyse players, teams using data and video. In addition,
+              we explain some football tips.
+            </p>
+
+            <p class="footer-list-title">Address</p>
+
+            <address class="footer-text address">
+              16024 Algiers <br>
+              , Algeria.
+            </address>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categories</p>
+
+            <ul>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Player Analysis</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Team Analysis</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Data Analysis</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Data Science</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Video analysis</a>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="footer-text">
+              Sign up to be first to receive the latest stories inspiring us, case studies, and industry news.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">Walid BOUMAHDI.</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!--
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
